@@ -10,6 +10,10 @@ Yarn now accepts sponsorships! Please give a look at our [OpenCollective](https:
 
 ## 3.2.2
 
+### Installs
+
+- The `pnpm` linker avoids creating symlinks that lead to loops on the file system, by moving them higher up in the directory structure.
+
 ### Compatibility
 
 - The patched filesystem now supports `ftruncate`.
